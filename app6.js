@@ -21,6 +21,6 @@ const bars = container
     .attr('height', data => 200 - yScale(data.value))
     .attr('x', data => xScale(data.region))
     .attr('y', data => yScale(data.value));
-setTimeout(() => {
-    bars.data(DUMMY_DATA.slice(0, 2)).exit().remove();
-}, 2000);
+// setTimeout(() => {
+//     bars.data(DUMMY_DATA.slice(0, 2)).exit().remove();
+// }, 2000);
